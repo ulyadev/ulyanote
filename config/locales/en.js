@@ -1,13 +1,13 @@
 module.exports = {
   tHome: 'Home',
-  tRelativePosts: 'Relative Posts',
-  tFollowTwitterDescription: 'You should follow him on Twitter',
+  tRelativePosts: 'Publication',
+  tFollowTwitterDescription: 'Follow Me on Twitter',
   tTags: 'Tags',
   tIndTitle: 'All posts',
-  taIndKeywords: [`blog`, `gatsby`, `javascript`, `react`],
-  tfIndCountPosts: count => `${count} Posts`,
+  taIndKeywords: [`blog`, `publication`, `personal`, `documentation`],
+  tfIndCountPosts: count => `${count} Publication`,
   tfTagHeader: (totalCount, tag) =>
     `${totalCount} post${totalCount === 1 ? '' : 's'} tagged with "${tag}"`,
-  t404Title: 'Not Found',
-  t404Content: 'You just hit a route that doesn&#39;t exist... the sadness.',
+  t404Title: 'Page Not Available',
+  t404Content: 'Ups! you go to wrong URL.',
 };
