@@ -10,13 +10,13 @@ const site = {
   facebook: 'thundermiracle',
   disqusShortName: 'gatsby-simple-blog',
   googleTrackingId: '',
-  lang: 'en',
+  lang: 'id',
   displayTranslations: true,
 };
 
 const supportedLanguages = {
-  en: 'English',
-  'zh-hans': '简体中文',
+  id: 'Indonesia',
+  'en': 'English',
 };
 
 module.exports = {
